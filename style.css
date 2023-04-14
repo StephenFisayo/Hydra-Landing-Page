@@ -756,6 +756,7 @@ input, #something{
 @media screen and (max-width: 375px) {
     body{
         /* background-color: wheat; */
+        overflow-x: hidden;
     }
 
 
