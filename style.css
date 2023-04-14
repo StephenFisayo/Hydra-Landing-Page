@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-    max-width: 1272px;
+    /* max-width: 1272px; */
     margin: 50px 84px 0px 84px;
 }
 
@@ -762,7 +762,6 @@ input, #something{
     body{
         /* background-color: wheat; */
         overflow: hidden;
-        width: 375px;
     }
 
 
