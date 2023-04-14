@@ -15,7 +15,7 @@
 body{
     background: #302C42;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .logo img{
@@ -715,6 +715,9 @@ input, #something{
     justify-content: space-around;
 }
 
+.moptin-line{
+    display: none;
+}
 
 .socialize{
     font-weight: 600;
@@ -761,7 +764,7 @@ input, #something{
 @media screen and (max-width: 375px) {
     body{
         /* background-color: wheat; */
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
 
