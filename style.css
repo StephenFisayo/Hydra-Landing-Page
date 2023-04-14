@@ -25,7 +25,6 @@ body{
 .container{
     max-width: 1272px;
     margin: 50px 84px 0px 84px;
-    overflow-x: hidden;
 }
 
 nav{
@@ -495,6 +494,10 @@ button:hover{
 }
 
 
+.tech-arrow1, .tech-arrow2, .services-arrow1, .services-arrow2, .process-arrow1, .process-arrow2{
+    display: none;
+}
+
 .outline-offset{
     background: rgba(14, 14, 14, 0.32);
     width: 100px;
@@ -673,7 +676,6 @@ input, #something{
     font-size: 14px;
 }
 
-
 .optin-button button{
     font-style: normal;
     font-weight: 700;   
@@ -713,8 +715,6 @@ input, #something{
     justify-content: space-around;
 }
 
-.fsection4{
-}
 
 .socialize{
     font-weight: 600;
@@ -753,18 +753,22 @@ input, #something{
     z-index: -1;
 }
 
+.mfooter-curve1, .mfooter-curve2, .mfooter-line{
+    display: none;
+}
+
 
 @media screen and (max-width: 375px) {
     body{
         /* background-color: wheat; */
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
 
     .container{
         display: flex;
         flex-direction: column;
-        margin: 25.66px 20px 89px 20px;
+        margin: 25.66px 20px 89px 20px;       
     }
 
     nav{
@@ -997,17 +1001,390 @@ input, #something{
         font-size: 14px;
     }
 
+    .card-1, .card-2, .card-3, .card-4{
+        width: 320px;
+    }
+
+    .card-2, .card-3, .card-4{
+        display: none;
+    }
+
+    .cards{
+        justify-content: center;
+        position: relative;
+    }
+
+    .services-section{
+        margin: 0px -13px 56px -13px;
+    }
+
+    .services-section .about-1{
+        margin-bottom: 26px;
+    }
+
+    .card-content{
+        padding: 41.44px 37px 36px 33px;
+    }
+
+    .card-heading{
+        margin-bottom: 2.5px;
+    }
+
+    .card-line{
+        margin-bottom: 16.5px;
+    }
+
+    .card-word{
+        line-height: 15px;
+        margin-bottom: 31px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .card-button{
+        font-size: 14px;
+    }
+
+    .card-button button{
+        padding: 15px 80px 16px 81px;
+    }
+
+    .tech-arrow1, .tech-arrow2, .services-arrow1, .services-arrow2, .process-arrow1, .process-arrow2{
+        display: block;
+    }
+
+    .services-arrow1 img{
+        position: absolute;
+        top: 42%;
+        left: 7px;
+        padding: 2px 4px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    }
+
+    .service-offset1{
+        position: absolute;
+        top: 40.5%;
+        left: 2px;
+        width: 56px;
+        height: 56px;
+        background: rgba(14, 14, 14, 0.32);
+        border-radius: 50%;
+    }
+
+    .services-arrow2 img{
+        position: absolute;
+        top: 42%;
+        right: 7px;
+        padding: 2px 4px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    }
 
 
+    .service-offset2{
+        position: absolute;
+        top: 40.5%;
+        right: 2px;
+        width: 56px;
+        height: 56px;
+        background: rgba(14, 14, 14, 0.32);
+        border-radius: 50%;
+    }
 
+    .service-vector{
+        display: none;
+    }
 
+    .vector7, .vector8{
+        display: none;
+    }
 
+    .outline{
+        display: none;
+    }
 
+    /* .techimg{
+        height: 163px;
+    } */
 
+    .techimg img{
+        width: 100%;
+        height: 123px;
+        border-radius: 50px;
+    }
 
+    .tech-words{
+        position: absolute;
+        left: auto;
+        top: 39px;
+        text-align: center;
+    }
 
+    .tech-hard{
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
 
-}
+    .used-by{
+        font-size: 24px;
+    }
+
+    .tech-section{
+        position: relative;
+        margin-bottom: 0px;
+    }
+
+    .unity, .oculus, .unreal{
+        display: none;
+    }
+
+    .tech-arrow1 img{
+        position: absolute;
+        top: 60%;
+        left: -10px;
+        padding: 2px 4px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+        
+    }
+    
+    .tech-arrow2 img{
+        position: absolute;
+        top: 60%;
+        right: -10px;
+        padding: 2px 4px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+        
+    }
+
+    .tech-offset1{
+        position: absolute;
+        top: 58.4%;
+        right: -15px;
+        width: 56px;
+        height: 56px;
+        background: rgba(14, 14, 14, 0.32);
+        border-radius: 50%;
+    }
+
+    .tech-offset2{
+        position: absolute;
+        top: 58.4%;
+        left: -15px;
+        width: 56px;
+        height: 56px;
+        background: rgba(14, 14, 14, 0.32);
+        border-radius: 50%;
+    }
+
+    .process-wavy{
+        display: none;
+    }
+
+    .second-process, .third-process, .fourth-process{
+        display: none;
+    }
+
+    .first-process{
+        width: 100%;
+    }
+
+    .process-section{
+        position: relative;
+        margin-bottom: 81px;
+    }
+
+    .process-arrow1 img{
+        position: absolute;
+        top: 88%;
+        left: -10px;
+        padding: 2px 4px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+        
+    }
+    
+    .process-arrow2 img{
+        position: absolute;
+        top: 88%;
+        right: -10px;
+        padding: 2px 4px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+        
+    }
+
+    .process-offset1{
+        position: absolute;
+        top: 86.4%;
+        right: -15px;
+        width: 56px;
+        height: 56px;
+        background: rgba(14, 14, 14, 0.32);
+        border-radius: 50%;
+    }
+
+    .process-offset2{
+        position: absolute;
+        top: 86.4%;
+        left: -15px;
+        width: 56px;
+        height: 56px;
+        background: rgba(14, 14, 14, 0.32);
+        border-radius: 50%;
+    }
+
+    .process-arrow img{
+        display: none;
+    }
+
+    .process-section .about-1{
+        margin-bottom: 56px;
+    }
+
+    .process-word{
+        font-size: 28px;
+        margin: 0px 50px 0px 50px;
+        text-align: center;
+    }
+
+    .optin{
+        padding: 45px 22px 65px 22px;
+    }
+
+    .optin-section{
+        border-radius: 40px;
+        margin-bottom: 55px;
+    }
+
+    .join-hydra{
+        font-size: 24px;
+    }
+
+    .optin-line{
+        display: none;
+    }
+
+    .moptin-line{
+        margin-bottom: 19px;
+    }
+
+    .vr-experience{
+        font-weight: 400;
+        font-size: 24px;
+        margin: 0 36px 35px;
+        text-align: center;
+    }
+
+    .optin-names, .optin-contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #something .firstName, .lastName, #eMail, #phone{
+        width: 100%;
+    }
+
+    .firstName, #eMail, .optin-contact, #subject, .optin-names{
+        margin-bottom: 22px;
+    }
+
+    input.firstName{
+        width: 100%;
+    }
+
+    input, #something{
+        border-radius: 40px;
+        padding: 18px 0px 18px 29px;
+    }
+
+    .fsections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    .fsection4{
+        position: relative;
+    }
+
+    .footer-curve1, .footer-curve2{
+        display: none;
+    }
+
+    .footer-slash{
+        display: none;
+    }
+
+    .footer-line{
+        display: none;
+    }
+
+    .fsection1{
+        margin-bottom: 18px;
+    }
+
+    .fsection2, .fsection3{
+        display: none;
+    }
+
+    .socialize{
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    
+    .social-media{
+        width: 100%;
+    }
+
+    .mfooter-curve1{
+        display: block;
+        position: absolute;
+        top: 4248px;
+    }
+
+    .mfooter-curve2{
+        display: block;
+        position: absolute;
+        top: 4429px;
+    }
+
+    .mfooter-line{
+        display: block;
+        margin-bottom: 19px;
+    }
+
+    .mfooter-line img{
+       width: 100%;
+       height: 4px;
+    }
+
+    .fsection4 .world{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 38px;
+    }
+
+    .fsection4 button.build{
+        width: 80%;
+    }
+
+    .copyright{
+        margin: 0 39px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 34px;
+        text-align: center;
+        letter-spacing: 0.13em;
+    }
+
+}    
 
 
 
