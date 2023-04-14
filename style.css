@@ -762,6 +762,7 @@ input, #something{
     body{
         /* background-color: wheat; */
         overflow: hidden;
+        width: 375px;
     }
 
 
