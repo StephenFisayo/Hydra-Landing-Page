@@ -1,9 +1,9 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+img{
+    max-width: 100%;
 }
 
-*::after, *::before{
+*{
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -13,19 +13,16 @@
 }
 
 body{
+    overflow-x: hidden;
     background: #302C42;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
 }
 
-.logo img{
-    max-width: 100%;
-}
-
-.container{
-    /* max-width: 1272px; */
+.container{ 
+    /* overflow-x: hidden; */
     margin: 50px 84px 0px 84px;
 }
+
 
 nav{
     display: flex;
@@ -35,7 +32,11 @@ nav{
 }
 
 .hydra{
-    margin-left: 15px;
+    margin-left: 7.89%;
+}
+
+.hydra img{
+    max-width: 100%;
 }
 
 .hydra-logo{
@@ -155,623 +156,22 @@ a{
     border-radius: 100px 100px 100px 240px;
 }
 
-.offset{
-    position: absolute;
-    top: -14px;
-    left: -16px;
-    background: rgba(0, 0, 0, 0.13);
-    width: 524px;
-    height: 455px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 100px 100px 100px 240px;
+img.logo{
+    max-width: 100%;
 }
 
-.details{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 90px;
-    padding: 12px;
-    margin-bottom: 94px;
-}
-
-.vector7{
-    position: absolute;
-    top: 1268.32px;
-    left: 0;
-    z-index: -1;
-}
-
-.service-vector{
-    position: absolute;
-    top: 2187px;
-    left: -3px;
-    z-index: -1;
-}
-
-.vector8{
-    position: absolute;
-    top: 1540.82px;
-    left: 0;
-    z-index: -1;
-}
-
-.location, .email, .telephone{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.visit, .call, .message{
-    text-align: left;
-    margin-left: 23px;
-}
-
-.details-arrow-right, .details-arrow-left{
-    display: none;
-}
-
-.send, .give, .pay{
-    color: var(--white);
-    font-weight: 700;
-    font-size: 24px;
-    text-align: left;
-}
-
-.mail, .telephone-number, .address{
-    font-weight: 300;
-    font-size: 14px;
-    color: var(--white);
-}
-
-
-.mvector{
-    display: none;
-}
-
-img.rect{
-    height: 86px;
-}
-
-.vector1 img{
-    position: absolute;
-    top: 120px;
-    left: 980px;
-    z-index: -1;
-}
-
-.vector2 img{
-    position: absolute;
-    top: 0;
-    left: 900px;
-    z-index: -1;
-}
-
-.vector3 img{
-    position: absolute;
-    top: 400px;
-    left: 680px;
-    z-index: -1;
-}
-
-.vector4 img{
-    position: absolute;
-    top: 280px;
-    left: 0;
-    z-index: -1;
-}
-.about-1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.about-1{
-    position: relative;
-    margin-bottom: 92px;
-}
-
-.introduction{
-    font-weight: 700;
-    font-size: 36px;
-    color: var(--white);
-}
-
-.to{
-    font-weight: 300;
-    font-size: 36px;
-    color: var(--white);
-    margin-right: 30px;
-}
-
-.vitae{
-    font-weight: 300;
-    font-size: 16px;
-    color: var(--white);
-    line-height: 24px;
-    width: 650px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.tohydra{
-    display: flex;
-    align-items: center;
-    /* position: absolute;
-    top: 54px; */
-    margin-top: -28px;
-
-}
-
-.vr-image img{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 240px 100px;
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-}
-
-.about-2 .introduction{
-    margin-bottom: 5px;
-}
-
-
-.about-2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 111px;
-}
-
-.hydra-vr{
-    font-weight: 300;
-    font-size: 36px;
-    color: var(--white);
-    margin-bottom: 42px;
-}
-
-.about-words{
-    display: flex;
-    flex-direction: column;
-}
-
-.eget{
-    font-weight: 300;
-    font-size: 16px;
-    color: var(--white);
-    width: 630px;
-    margin-bottom: 28px;
-    line-height: 24px;
-}
-
-.in-touch{
-    font-weight: 700;
-    font-size: 12px;
-    color: #343045;
-}
-
-.in-touch button{
-    padding: 17px 47px 16px 38px;
-    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-    border-radius: 40px;
-    border: 0px solid red;
-}
-
-.services-section .about-1{
-    margin-bottom: 102px;
-}
-
-.cards{
-    display: flex;
-    justify-content: space-between;
-}
-
-.card-1, .card-2, .card-3, .card-4{
-    width: 310px;
-}
-
-.card-content{
-    padding: 23px 36px 40px 25px;
-    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-avatar img{
-    border-radius: 50%;
-
-}
-
-.avatar-circle{
-    background: rgba(14, 14, 14, 0.32);
-    width: 219px;
-    height: 219px;
-    border-radius: 50%;
-    position: absolute;
-    top: -14.4px;
-    left: -13.64px;
-}
-
-.avatar-content{
-    position: relative;
-    margin-bottom: 21px;
-}
-
-.card-heading{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    color: var(--white);
-    margin-bottom: 17.5px;
-}
-
-.card-line{
-    margin-bottom: 21.5px;
-}
-
-.card-word{
-    font-weight: 300;
-    font-size: 12px;
-    color: var(--white);
-    margin-bottom: 35px;
-    /* width: 249px;
-    word-wrap: none; */
-}
-
-.card-button{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    color: #343045;
-}
-
-.card-button button{
-    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-    border-radius: 40px;
-    border: 0px solid red;
-    padding: 16px 39px 17px;
-}
-
-
-.services-section{
-    margin-bottom: 114px;
-}
-
-button:hover{
-    cursor: pointer;
-}
-
-.tech-section{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 69px;
-}
-
-.techimg img{
-    background: #211E2E;
-    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
-    border-radius: 160px; 
-}
-
-.tech-words{
-    position: absolute;
-    left: 27.5%;
-    top: 15%;
-    text-align: center;
-}
-
-.tech-hard{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    color: var(--white);
-}
-
-.used-by{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
-    color: var(--white);
-}
-
-.outline{
-    position: relative;
-    top: -37px;
-
-}
-
-.outline-shape{
-    padding: 27px 21px 27px 21px;
-    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
-    border-radius: 50%;
-}
-
-
-.tech-arrow1, .tech-arrow2, .services-arrow1, .services-arrow2, .process-arrow1, .process-arrow2{
-    display: none;
-}
-
-.outline-offset{
-    background: rgba(14, 14, 14, 0.32);
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: -15px;
-    left: -15px;
-    border-radius: 50%;
-}
-
-.tech-companies{
-    width: 1272px;
-    display: flex;
-    justify-content: space-evenly   ;
-    align-items: center;
-}
-
-.process-section{
-    margin-bottom: 112px;
-}
-
-.process-section .about-1{
-    margin-bottom: 115px;
-}
-
-.first-process, .second-process, .third-process, .fourth-process{
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.process-number{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    width: 170px;
-    color: #343045;
-    padding: 41px 46px;
-    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
-    border-radius: 50%;
-}
-
-.process-word{
-    font-weight: 600;
-    font-size: 22px;
-    color: var(--white);
-}
-
-.processes{
-    display: flex;
-    justify-content: space-between;
-}
-
-.arrow-word{
-    display: flex;
-}
-
-.process-container{
-    position: relative;
-    margin-bottom: 50px;
-}
-
-.process-offset{
-    position: absolute;
-    top: -20px;
-    left: -13px;
-    width: 198px;
-    height: 198px;
-    background: rgba(13, 13, 13, 0.32);
-    border-radius: 50%;
-}
-
-/* .fourth-process{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-} */
-
-.process-wavy{
-    position: absolute;
-    left: 0;
-    top: 3665px;
-    z-index: -1;
-}
-
-.optin-section{
-    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 100px;
-    margin-bottom: 122.5px;
-}
-
-.optin{
-    padding: 90px 111px 84px 106px;
-    text-align: center;
-}
-
-.join-hydra{
-    font-style: normal;
-    font-weight: 700;
-    color: var(--white);
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-
-.vr-experience{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
-    color: var(--white);
-    margin-bottom: 35px;
-}
-
-.optin-line{
-    margin-bottom: 21px;
-}
-
-.optin-names, .optin-contact{
-    display: flex;
-    justify-content: space-between;
-}
 
-
-
-input, #something{
-    background: transparent;
-    color: var(--white);
-    border: 2px solid #FFFFFF;
-    border-radius: 40px;
-    padding: 28px 0px 28px 42px;
-}
-
-.optin-something{
-    margin-bottom: 51px;
-}
-
-.firstName, .lastName, #eMail, #phone{
-    width: 524px;
-}
-
-::placeholder{
-    color: var(--white);
-}
-
-#subject, #eMail, #phone, .firstName, .lastName, #something{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    outline-width: 0;
-}
-
-#something{
-    width: 100%;
-    height: 210px;
-}
-
-#subject{
-    width: 100%;
-}
-
-.optin-names{
-    margin-bottom: 39px;
-}
-
-.optin-contact, #subject{
-    margin-bottom: 33px;
-}
-
-#something::-webkit-input-placeholder{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.optin-button button{
-    font-style: normal;
-    font-weight: 700;   
-    font-size: 12px;
-    color: #343045;
-    padding: 16px 55px;
-    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-    border-radius: 40px;
-    border: 0px solid red;
-}
-
-.fsection1 img{
-    /* width: 200%; */
-}
-
-
-.fsections{
-    margin-bottom: 59px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.fsection2{
-    font-weight: 600;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.fsection3{
-    font-weight: 600;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.moptin-line{
-    display: none;
-}
-
-.socialize{
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--white);
-    margin-bottom: 39px;
-}
-
-.footer-line{
-    margin-bottom: 49px;
-}
-
-.copyright{
-    font-weight: 600;
-    font-size: 14px;
-    text-align: center;
-    color: var(--white);
-    margin-bottom: 59px;
-}
-
-.social-media{
-    margin-bottom: 39px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-curve1{
-    position: absolute;
-    top: 4896px;
-    z-index: -1;
-}
-
-.footer-curve2{
-    position: absolute;
-    top: 5195px;
-    z-index: -1;
-}
-
-.mfooter-curve1, .mfooter-curve2, .mfooter-line{
-    display: none;
-}
 
 
-@media screen and (max-width: 375px) {
+@media only screen and  (max-width: 375px){
     body{
-        /* background-color: wheat; */
         overflow-x: hidden;
     }
-
 
     .container{
         display: flex;
         flex-direction: column;
-        margin: 25.66px 20px 89px 20px;       
+        margin: 25.66px 5.3% 89px 5.3%;       
     }
 
     nav{
@@ -785,30 +185,36 @@ input, #something{
 
     .hydra-logo{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
     }
 
     img.logo{
-        width: 69px;
-        /* height: 26px; */
+        width: 40%;
     }
 
     .hydra{
-        margin-left: 11px;
-        width: 46px;
+        margin-left: 7.89%;
+    }
+
+    .mask{
+        width: 89.4%;
     }
 
     .hydra img{
-        width: 46px;
-        position: absolute;
+        width: 70%;
+        /* position: absolute; */
     }
 
     .harmburger-button{
         display: block;
         position: absolute;
-        right: 20px;
-        top: 60.484px;
+        right: 5.3%;
+        /* top: 60.484px; */
+    }
+
+    .harmburger-button img{
+        max-width: 100%;
     }
 
     .intro{
@@ -816,8 +222,8 @@ input, #something{
         flex-direction: column-reverse;
     }
 
-    .michel img{
-        width: 317px;
+    .michel{
+        max-width: 100%;
     }
 
     .michel{
@@ -829,7 +235,7 @@ input, #something{
     } */
 
     .offset{
-        width: 340px;
+        width: 91%;
         height: 296px;
         top: -12px;
         left: -11px;
@@ -841,13 +247,13 @@ input, #something{
     
     .mvector1 img{
         position: absolute;
-        top: 77px; left: 102px;
+        top: 77px; right: 0;
         z-index: -1;
     }
     
     .mvector2 img{
         position: absolute;
-        top: -65px; left: 23px;
+        top: -65px; right: 0;
         z-index: -1;
     }
     
@@ -897,507 +303,15 @@ input, #something{
         text-align: center;
     }
 
-    .world{
-        /* justify-content: space-around; */
+}
+
+@media only screen and  (max-width: 220px){
+    body{
+        overflow-x: hidden;
     }
 
-    button.build{
-        margin-right: 0px;
-        padding: 17px 69px;
-        width: 100%;
-    }
-    
-    .details{
-        margin-bottom: 59px;
-    }
-
-    .telephone, .email, .rect, .pay, .give, .send{
+    .hydra{
         display: none;
     }
 
-    .details-arrow-left img , .details-arrow-right{
-        max-width: 22.5px;
-    }
-
-    .details-arrow-right, .details-arrow-left{
-        display: block;
-    }
-
-    .details-arrow-left{
-        margin-right: 15.58px;
-    }
-
-    .visit{
-        margin-left: 0px;
-    }
-
-    .vitae{
-        display: none;
-    }
-
-    .location img{
-        width: 40.83px;
-        margin-right: 9.58px;
-    }
-
-    .about-1{
-        text-align: center;
-        justify-content: center;
-        margin-bottom: 36px;
-    }
-
-    .address{
-        margin-right: 10px;
-    }
-
-    .introduction{
-        font-weight: 700;
-        font-size: 32px;
-        margin-bottom: 16px;
-    }
-
-    .to{
-        margin-right: 0;
-        font-size: 26px;
-        width: 100%;
-    }
-
-    .hydra-arrow{
-        display: none;
-    }
-
-    .tohydra{
-        margin-top: 0;
-        text-align: center;
-    }
-
-    .vr-image img{
-        /* width: 336.79px; */
-        width: 100%;
-        border-radius: 140px 60px;
-        margin-bottom: 52px;
-    }
-
-    .about-2{
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 60px;
-    }
-
-    .eget{
-        /* display: none; */
-        width: 100%;
-        font-size: 12px;
-        margin-bottom: 34px;
-    }
-
-    .hydra-vr, .about-2 .introduction{
-        display: none;
-    }
-
-    .in-touch button{
-        text-align: center;
-        padding: 19px 63px 20px 63px;
-        width: 82.38%;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-    }
-
-    .card-1, .card-2, .card-3, .card-4{
-        width: 320px;
-    }
-
-    .card-2, .card-3, .card-4{
-        display: none;
-    }
-
-    .cards{
-        justify-content: center;
-        position: relative;
-    }
-
-    .services-section{
-        margin: 0px -13px 56px -13px;
-    }
-
-    .services-section .about-1{
-        margin-bottom: 26px;
-    }
-
-    .card-content{
-        padding: 41.44px 37px 36px 33px;
-    }
-
-    .card-heading{
-        margin-bottom: 2.5px;
-    }
-
-    .card-line{
-        margin-bottom: 16.5px;
-    }
-
-    .card-word{
-        line-height: 15px;
-        margin-bottom: 31px;
-        font-style: normal;
-        font-weight: 400;
-    }
-
-    .card-button{
-        font-size: 14px;
-    }
-
-    .card-button button{
-        padding: 15px 80px 16px 81px;
-    }
-
-    .tech-arrow1, .tech-arrow2, .services-arrow1, .services-arrow2, .process-arrow1, .process-arrow2{
-        display: block;
-    }
-
-    .services-arrow1 img{
-        position: absolute;
-        top: 42%;
-        left: 7px;
-        padding: 2px 4px;
-        border-radius: 50%;
-        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
-    }
-
-    .service-offset1{
-        position: absolute;
-        top: 40.5%;
-        left: 2px;
-        width: 56px;
-        height: 56px;
-        background: rgba(14, 14, 14, 0.32);
-        border-radius: 50%;
-    }
-
-    .services-arrow2 img{
-        position: absolute;
-        top: 42%;
-        right: 7px;
-        padding: 2px 4px;
-        border-radius: 50%;
-        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
-    }
-
-
-    .service-offset2{
-        position: absolute;
-        top: 40.5%;
-        right: 2px;
-        width: 56px;
-        height: 56px;
-        background: rgba(14, 14, 14, 0.32);
-        border-radius: 50%;
-    }
-
-    .service-vector{
-        display: none;
-    }
-
-    .vector7, .vector8{
-        display: none;
-    }
-
-    .outline{
-        display: none;
-    }
-
-    /* .techimg{
-        height: 163px;
-    } */
-
-    .techimg img{
-        width: 100%;
-        height: 123px;
-        border-radius: 50px;
-    }
-
-    .tech-words{
-        position: absolute;
-        left: auto;
-        top: 39px;
-        text-align: center;
-    }
-
-    .tech-hard{
-        font-size: 16px;
-        margin-bottom: 3px;
-    }
-
-    .used-by{
-        font-size: 24px;
-    }
-
-    .tech-section{
-        position: relative;
-        margin-bottom: 0px;
-    }
-
-    .unity, .oculus, .unreal{
-        display: none;
-    }
-
-    .tech-arrow1 img{
-        position: absolute;
-        top: 60%;
-        left: -10px;
-        padding: 2px 4px;
-        border-radius: 50%;
-        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
-        
-    }
-    
-    .tech-arrow2 img{
-        position: absolute;
-        top: 60%;
-        right: -10px;
-        padding: 2px 4px;
-        border-radius: 50%;
-        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
-        
-    }
-
-    .tech-offset1{
-        position: absolute;
-        top: 58.4%;
-        right: -15px;
-        width: 56px;
-        height: 56px;
-        background: rgba(14, 14, 14, 0.32);
-        border-radius: 50%;
-    }
-
-    .tech-offset2{
-        position: absolute;
-        top: 58.4%;
-        left: -15px;
-        width: 56px;
-        height: 56px;
-        background: rgba(14, 14, 14, 0.32);
-        border-radius: 50%;
-    }
-
-    .process-wavy{
-        display: none;
-    }
-
-    .second-process, .third-process, .fourth-process{
-        display: none;
-    }
-
-    .first-process{
-        width: 100%;
-    }
-
-    .process-section{
-        position: relative;
-        margin-bottom: 81px;
-    }
-
-    .process-arrow1 img{
-        position: absolute;
-        top: 88%;
-        left: -10px;
-        padding: 2px 4px;
-        border-radius: 50%;
-        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
-        
-    }
-    
-    .process-arrow2 img{
-        position: absolute;
-        top: 88%;
-        right: -10px;
-        padding: 2px 4px;
-        border-radius: 50%;
-        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
-        
-    }
-
-    .process-offset1{
-        position: absolute;
-        top: 86.4%;
-        right: -15px;
-        width: 56px;
-        height: 56px;
-        background: rgba(14, 14, 14, 0.32);
-        border-radius: 50%;
-    }
-
-    .process-offset2{
-        position: absolute;
-        top: 86.4%;
-        left: -15px;
-        width: 56px;
-        height: 56px;
-        background: rgba(14, 14, 14, 0.32);
-        border-radius: 50%;
-    }
-
-    .process-arrow img{
-        display: none;
-    }
-
-    .process-section .about-1{
-        margin-bottom: 56px;
-    }
-
-    .process-word{
-        font-size: 28px;
-        margin: 0px 50px 0px 50px;
-        text-align: center;
-    }
-
-    .optin{
-        padding: 45px 22px 65px 22px;
-    }
-
-    .optin-section{
-        border-radius: 40px;
-        margin-bottom: 55px;
-    }
-
-    .join-hydra{
-        font-size: 24px;
-    }
-
-    .optin-line{
-        display: none;
-    }
-
-    .moptin-line{
-        margin-bottom: 19px;
-    }
-
-    .vr-experience{
-        font-weight: 400;
-        font-size: 24px;
-        margin: 0 36px 35px;
-        text-align: center;
-    }
-
-    .optin-names, .optin-contact{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #something .firstName, .lastName, #eMail, #phone{
-        width: 100%;
-    }
-
-    .firstName, #eMail, .optin-contact, #subject, .optin-names{
-        margin-bottom: 22px;
-    }
-
-    input.firstName{
-        width: 100%;
-    }
-
-    input, #something{
-        border-radius: 40px;
-        padding: 18px 0px 18px 29px;
-    }
-
-    .fsections{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 0px;
-    }
-    
-    .fsection4{
-        position: relative;
-    }
-
-    .footer-curve1, .footer-curve2{
-        display: none;
-    }
-
-    .footer-slash{
-        display: none;
-    }
-
-    .footer-line{
-        display: none;
-    }
-
-    .fsection1{
-        margin-bottom: 18px;
-    }
-
-    .fsection2, .fsection3{
-        display: none;
-    }
-
-    .socialize{
-        font-weight: 700;
-        font-size: 18px;
-        margin-bottom: 25px;
-    }
-    
-    .social-media{
-        width: 100%;
-    }
-
-    .mfooter-curve1{
-        display: block;
-        position: absolute;
-        top: 4248px;
-    }
-
-    .mfooter-curve2{
-        display: block;
-        position: absolute;
-        top: 4429px;
-    }
-
-    .mfooter-line{
-        display: block;
-        margin-bottom: 19px;
-    }
-
-    .mfooter-line img{
-       width: 100%;
-       height: 4px;
-    }
-
-    .fsection4 .world{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 38px;
-    }
-
-    .fsection4 button.build{
-        width: 80%;
-    }
-
-    .copyright{
-        margin: 0 39px;
-        font-family: 'Montserrat';
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 34px;
-        text-align: center;
-        letter-spacing: 0.13em;
-    }
-
-}    
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
