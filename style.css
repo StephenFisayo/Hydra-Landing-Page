@@ -224,7 +224,7 @@ body{
     
     .mvector3 img{
         position: absolute;
-        left: 0px;
+        right: 0;
         top: 286px;
         z-index: -1;
     }
@@ -555,11 +555,13 @@ body{
 
     .tech-hard{
         font-size: 16px;
+        font-weight: 700;
         margin-bottom: 3px;
     }
 
     .used-by{
         font-size: 24px;
+        font-weight: 300;
     }
 
     .second-process, .third-process, .fourth-process{
